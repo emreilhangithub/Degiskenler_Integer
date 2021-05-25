@@ -91,5 +91,12 @@ namespace Degiskenler_Integer
             label9.Text = sayi.ToString();
 
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            char takim;
+            takim = 'g';
+            label10.Text = takim.ToString();
+        }
     }
 }

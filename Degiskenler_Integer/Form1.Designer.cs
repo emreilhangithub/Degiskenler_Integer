@@ -49,6 +49,8 @@ namespace Degiskenler_Integer
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -201,7 +203,7 @@ namespace Degiskenler_Integer
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(140, 31);
             this.button6.TabIndex = 16;
-            this.button6.Text = "button6";
+            this.button6.Text = "double";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -218,7 +220,7 @@ namespace Degiskenler_Integer
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(140, 31);
             this.button7.TabIndex = 19;
-            this.button7.Text = "button7";
+            this.button7.Text = "double";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -231,12 +233,33 @@ namespace Degiskenler_Integer
             this.label9.TabIndex = 18;
             this.label9.Text = "label9";
             // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(461, 277);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(141, 34);
+            this.button8.TabIndex = 20;
+            this.button8.Text = "char";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(501, 254);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(60, 20);
+            this.label10.TabIndex = 21;
+            this.label10.Text = "label10";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOrange;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.textBox4);
@@ -286,6 +309,8 @@ namespace Degiskenler_Integer
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Label label10;
     }
 }
 
