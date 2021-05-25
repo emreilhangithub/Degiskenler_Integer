@@ -76,10 +76,12 @@ namespace Degiskenler_Integer
 
         private void button6_Click(object sender, EventArgs e)
         {
-            double sayi;
-            //ondalıklı sayı kodda . ile klavyeden , ile
-            sayi = 4.25;
-            label8.Text = sayi.ToString();
+            double s1, s2, s3, ort;
+            s1 = 100;
+            s2 = 90;
+            s3 = 80;
+            ort = (s1 + s2 + s3) / 3;
+            label8.Text = ort.ToString("0.000"); //virgülden sonra 3 bas göster
         }
     }
 }
