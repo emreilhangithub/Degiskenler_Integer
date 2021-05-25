@@ -19,9 +19,11 @@ namespace Degiskenler_Integer
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int sayi;
-            sayi = 24;
-            label1.Text = sayi.ToString();
+            int sayi1, sayi2, toplam;
+            sayi1 = 5;
+            sayi2 = 4;
+            toplam = sayi1 + sayi2;
+            label1.Text = toplam.ToString();
         }
     }
 }
