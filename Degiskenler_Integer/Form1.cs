@@ -16,5 +16,12 @@ namespace Degiskenler_Integer
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int sayi;
+            sayi = 24;
+            label1.Text = sayi.ToString();
+        }
     }
 }
