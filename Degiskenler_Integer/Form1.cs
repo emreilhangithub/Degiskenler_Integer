@@ -47,5 +47,14 @@ namespace Degiskenler_Integer
             cevre = (kisakenar + uzunkenar) * 2;
             label3.Text = "Alan = " + alan + " Cevre = " + cevre;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int sayi;
+            sayi = Convert.ToInt16(textBox1.Text); //burada sayı 5 deseydik convert etmeyiz
+            //burada tanımladıgımız değişken integer değişkeni almaya calıstıgımız string o zaman donusum yapılır
+            label5.Text = sayi.ToString();
+
+        }
     }
 }
