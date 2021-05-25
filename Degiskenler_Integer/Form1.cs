@@ -73,5 +73,13 @@ namespace Degiskenler_Integer
                 "Bölme " + bolum + "\n" 
                 );
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            double sayi;
+            //ondalıklı sayı kodda . ile klavyeden , ile
+            sayi = 4.25;
+            label8.Text = sayi.ToString();
+        }
     }
 }
