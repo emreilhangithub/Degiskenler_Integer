@@ -98,5 +98,12 @@ namespace Degiskenler_Integer
             takim = 'g';
             label10.Text = takim.ToString();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            char ders;
+            ders = Convert.ToChar(textBox5.Text);
+            label11.Text = ders.ToString();
+        }
     }
 }
