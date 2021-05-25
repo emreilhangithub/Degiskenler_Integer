@@ -50,10 +50,11 @@ namespace Degiskenler_Integer
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int sayi;
-            sayi = Convert.ToInt16(textBox1.Text); //burada sayı 5 deseydik convert etmeyiz
-            //burada tanımladıgımız değişken integer değişkeni almaya calıstıgımız string o zaman donusum yapılır
-            label5.Text = sayi.ToString();
+            int sayi, sonuc;
+            sayi = Convert.ToInt16(textBox1.Text);
+            //textbox1 den gelen degeri integere dönüştür
+            sonuc = sayi * sayi * sayi;
+            label5.Text = sonuc.ToString();
 
         }
     }
