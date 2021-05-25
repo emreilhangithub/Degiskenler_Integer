@@ -83,5 +83,13 @@ namespace Degiskenler_Integer
             ort = (s1 + s2 + s3) / 3;
             label8.Text = ort.ToString("0.000"); //virgülden sonra 3 bas göster
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            double sayi;
+            sayi = Convert.ToDouble(textBox4.Text);
+            label9.Text = sayi.ToString();
+
+        }
     }
 }
