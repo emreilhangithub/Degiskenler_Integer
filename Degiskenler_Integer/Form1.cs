@@ -57,5 +57,21 @@ namespace Degiskenler_Integer
             label5.Text = sonuc.ToString();
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int sayi1, sayi2,toplam,carpim,fark,bolum;
+            sayi1 = Convert.ToInt16(textBox2.Text);
+            sayi2 = Convert.ToInt16(textBox3.Text);
+            toplam = sayi1 + sayi2;
+            carpim = sayi1 * sayi2;
+            fark   = sayi1 - sayi2;
+            bolum = (sayi1 + sayi2) / 2;
+            MessageBox.Show("Toplam " + toplam + "\n" +
+                "Çarpma " + carpim + "\n" +
+                "Çıkartma " + fark + "\n" +
+                "Bölme " + bolum + "\n" 
+                );
+        }
     }
 }
