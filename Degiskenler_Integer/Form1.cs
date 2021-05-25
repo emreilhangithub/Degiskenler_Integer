@@ -35,5 +35,17 @@ namespace Degiskenler_Integer
             ortalama = (sinav1 + sinav2 + sinav3) / 3;
             label2.Text = "Ortalama " + ortalama;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //odev diktortgende alan ve cevre hesaplama
+            //kısa 10 uzun 20
+            int alan, cevre, kisakenar, uzunkenar;
+            kisakenar = 30;
+            uzunkenar = 20;
+            alan = kisakenar * uzunkenar;
+            cevre = (kisakenar + uzunkenar) * 2;
+            label3.Text = "Alan = " + alan + " Cevre = " + cevre;
+        }
     }
 }
